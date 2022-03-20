@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 10%;
+}
+
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+
+/*Headings*/
+
+.big-heading {
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.features-heading {
+  font-size: 1.7rem;
+  line-height: 2;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Section*/
+
+
+#title .container-fluid {
+  padding: 3% 10% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-img {
+  width: 50%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+.title-image-container {
+  position: relative;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 50px 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* CTA */
+
+/* Footer */
+
+.social-icon {
+  color: Black;
+  padding: 12px;
+  margin: 5px;
+}
+
+/* Media Query */
+
+@media (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
