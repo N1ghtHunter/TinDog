@@ -164,7 +164,15 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
-
+.card{
+  height: 100%;
+}
+.card-body{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
